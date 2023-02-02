@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 1rem;
+            padding: 8px;
+            margin: 4px;
+            border: 2px solid blue;
+            background-color: lightgray;
+        }
+        .leftcontainer {
+            display: flex;
+            border: 2px dotted blue;
+            flex-direction: column;
+            gap: 1rem;
+            padding: 8px;
+            margin: 2px;
+        }
+        .rightcontainer {
+            display: flex;
+            border: 2px dotted blue;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 8px;
+            margin: 4px;
+            width: 100%;   
+        }
+        h4 {
+            padding: 0px;
+            text-align: center;
+        }
+        .box {
+            border: 1px dashed blueviolet;
+            padding: 15px;
+            margin: 4px;   
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="leftcontainer">
+        <div class="box">Home</div>
+        <div class="box">Discount</div>
+        <div class="box">Price</div>
+        <div class="box">Rating</div>
+        <div class="box">Products</div>
+        <div class="box">Offer zone</div>
+    </div>
+    <div class="rightcontainer">
+        <div class="box">
+            <h4>Shoes</h4>
+            <img src="https://www.jiomart.com/images/product/500x630/rvnezaqnsd/bruton-running-shoes-for-men-product-images-rvnezaqnsd-0-202206141815.jpg" alt="Shoes" width="150px">
+        </div>
+        <div class="box">
+            <h4>Hoodie</h4>
+            <img src="https://m.media-amazon.com/images/I/612c6wXg3RL._UL1500_.jpg" alt="Hoodie" width="150px" height="150px">
+        </div>
+        <div class="box">
+            <h4>Backpack</h4>
+            <img src="https://m.media-amazon.com/images/I/51F7ePrtc4L._UX569_.jpg" alt="Backpack" width="150px">
+        </div>
+        <div class="box">
+            <h4>Water Bottle</h4>
+            <img src="https://cdn.shopify.com/s/files/1/2491/1072/products/61khkpirTNL._SL1500_1024x1024.jpg?v=1669446618" alt="Water Bottle" width="150px">
+        </div>
+        <div class="box">
+            <h4>Cloak</h4>
+            <img src="https://m.media-amazon.com/images/I/51RQdqp66GL.jpg" alt="Cloak" width="150px" height="150px">
+        </div>
+        <div class="box">
+            <h4>Earpods</h4>
+            <img src="https://m.media-amazon.com/images/I/71dJxeIcJ-L._SX679_.jpg" alt="Earpods" width="150px">
+        </div>
+        <div class="box">
+            <h4>Earrings</h4>
+            <img src="https://asset.swarovski.com/images/$size_1450/t_swa103/b_rgb:ffffff,c_scale,dpr_3.0,f_auto,w_500/5504753_png/swarovski-sparkling-dance-drop-earrings--round-cut--white--rose-gold-tone-plated-swarovski-5504753.png" alt="Earrings" width="150px">
+        </div>
+        <div class="box">
+            <h4>Bracelet</h4>
+            <img src="https://m.media-amazon.com/images/I/71I3E03Q7dL._UL1500_.jpg" alt="Bracelet" width="150px">
+        </div>
+        <div class="box">
+            <h4>Hand Bag</h4>
+            <img src="https://cdn.shopify.com/s/files/1/0266/6276/4597/products/300909514BLACK_1_1024x1024.jpg?v=1668603354" alt="Hand Bag" width="150px">
+        </div>
+        <div class="box">
+            <h4>Slippers</h4>
+            <img src="https://www.ikea.com/in/en/images/products/tasjoen-slippers-grey__0668751_pe714668_s5.jpg" alt="Slippers" width="150px" height="200px">
+        </div>
+        <div class="box">
+            <h4>Shirt</h4>
+            <img src="https://rukminim1.flixcart.com/image/612/612/l4oi4cw0/shirt/a/3/9/xl-4000-combraided-original-imagfgzguwfuryw9.jpeg?q=70" alt="Shirt" width="150px">
+        </div>
+        <div class="box">
+            <h4>T-Shirt</h4>
+            <img src="https://contents.mediadecathlon.com/p1871941/4c75ac71a5f8b806bdbf5c391f18eb75/p1871941.jpg" alt="T-Shirt" width="150px" height="200px">
+        </div>
+        <div class="box">
+            <h4>Skirt</h4>
+            <img src="https://media.istockphoto.com/id/882157056/photo/red-elegant-skirt-with-ribbon-bow-isolated-on-white.jpg?s=612x612&w=0&k=20&c=7zbb86_FfPxrNedcagZyyHrcpKGu2Si4_LgNYHdTqiU=" alt="Skirt" width="150px">
+        </div>
+        <div class="box">
+            <h4>Shrug</h4>
+            <img src="https://cdn.shopclues.com/images1/thumbnails/104223/320/320/148695190-104223920-1665755902.jpg" alt="Shrug" width="150px" height="190px">
+        </div>
+        <div class="box">
+            <h4>Sweater</h4>
+            <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1570469930-505183_1155_41.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="Sweater" width="150px" height="190px">
+        </div>
+        <div class="box">
+            <h4>Watch</h4>
+            <img src="https://i.gadgets360cdn.com/products/large/realme-watch-670x800-1590388807.jpg" alt="Watch" width="150px" height="190px">
+        </div>
+        <div class="box">
+            <h4>Jeans</h4>
+            <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/447647/item/goods_64_447647.jpg?width=1008&impolicy=quality_75" alt="Jeans" width="150px" >
+        </div>
+        <div class="box">
+            <h4>Soft Toy</h4>
+            <img src="https://4.imimg.com/data4/II/RH/MY-34501649/pikachu-soft-toy-45cm-500x500.jpg" alt="Soft Toy" width="150px">
+        </div>
+        <div class="box">
+            <h4>Robot</h4>
+            <img src="https://m.media-amazon.com/images/I/61b8nDQMwoL._SL1416_.jpg" alt="Robot" width="150px">
+        </div>
+        <div class="box">
+            <h4>Frock</h4>
+            <img src="https://images.meesho.com/images/products/98595419/spbak_512.jpg" alt="Frock" width="150px">
+        </div>
+        <div class="box">
+            <h4>Blanket</h4>
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTgXyJEA9qlpQx632MGv-kNrFm2fo7h9FbOVNtVBsP1X-inltWrGyAn78VsDoNEL7bSiBOCRxFBBla5fA1Rfw_YIvDwskFrcwEJmGAocprUwQcT0v2sHB5U&usqp=CAE" alt="Blnket" width="150px">
+        </div>
+        <div class="box">
+            <h4>Pillows</h4>
+            <img src="https://wakefitdev.gumlet.io/img/pillow-covers/grey/1.jpg?w=1242" alt="Pillows" width="150px">
+        </div>
+        <div class="box">
+            <h4>Mattress</h4>
+            <img src="https://media.wired.com/photos/637d2e96b5e15145ca4133ac/master/w_2400,h_1800,c_limit/The-WinkBed-SOURCE-WinkBeds-Gear.jpg" alt="Mattress" width="150px" height="150px">
+        </div>
+        <div class="box">
+            <h4>Nail Polish</h4>
+            <img src="http://cdn.shopify.com/s/files/1/0568/8433/0684/products/33_2.png?v=1652837665" alt="Nail Polish" width="150px">
+        </div>
+        <div class="box">
+            <h4>Lip Stick</h4>
+            <img src="https://media-asia-cdn.oriflame.com/productImage/?externalMediaId=product-management-media%2F42526%2FIN%2F42526.png%3Fversion%3D1588860789&w=1440&bc=%23f5f5f5&ib=%23f5f5f5&h=1440&q=30" alt="Lip Stick" width="150px">
+        </div>
+        <div class="box">
+            <h4>Laptop</h4>
+            <img src="data:image/jpeg;base64,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q3DUkh3xz2tmuLHKxrSDz9CWlhudDrYkXtP8g6h6gjWdg9SZSCvtoC3ag3yvayQ87M0ZQInjLJbVrHN3i2QD5QXR5N5XuDwQZIMucNcDmgJDWOFngExvLWk5hZjxwYVO6Wn7B26BTHAIA3WwHoG7iFGWwuavIvH2h/udx0IJiJdCb63MdmzPcTqXDszDzQp+CtGJjd4a0HrAaD67LZidw4LySZkRFACIiAIiIAiIgC+FfUQHBfWVjOb7jMh1u6KaHKe34zKb+hYTitb/ALun9vQ+IpIiAis1bVu34dU+ibD/ABFzKihnfvoasd02G+Ip6im4K2dgcx/iVb7bDPEXj3vzfMq722F+IrMRMzIsVj73ZuFJXe1wvxE97s/zSu9rhfiKzkTMySsfe9P80rva4V4i++96f5pXe0wvxVZqKczIsVj73Z/mld7TC/FT3uz/ADSu9phfiqzkUZmLFZe92f5pXe0wvxV8PJ2b5pXfXwvxVZyJmYsVieTc3zSu9phnjL03k7L80rvr4Z4ysxFOZixXUWDTN/idb7TDPGXTpjUM3UFWe+TDvGUyRRckjbMSqx/s+p9rh/jLYhrqlxsaOZna+Skt/wBMhP2LuIoBjivYX6Vtbaj18VkREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAf/Z" alt="Laptop" width="150px">
+        </div>
+        <div class="box">
+            <h4>Bluetooth Speaker</h4>
+            <img src="https://m.media-amazon.com/images/I/71KclpqM2sL._SL1200_.jpg" alt="Bluetooth Speaker" width="150px">
+        </div>
+        <div class="box">
+            <h4>Microwave Oven</h4>
+            <img src="https://www.lg.com/in/images/microwave-ovens/md05265523/gallery/MC2886BRUM-Microwave-ovens-Detail-2-view-D-04.jpg" alt="Microwave Oven" width="150px" height="150px">
+        </div>
+    </div>
+   </div>
+</body>
+</html>

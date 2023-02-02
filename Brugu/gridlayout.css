@@ -1,0 +1,25 @@
+.container{
+    display: grid;
+    grid-area: auto auto auto auto;
+    height: 80%;
+    gap:2px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 6px;
+    margin-top: 10px;
+}
+.container1{
+    border: 1px red solid;
+    border-radius: 10px;
+    grid-area: 1/1/2/5;  
+    padding: 6px;
+    font-size: larger;
+}  
+.container2{
+    border: 1px red solid;
+    border-radius: 10px;
+    grid-area: 1/5/2/13;
+    padding: 6px;
+    font-size: larger;
+}
