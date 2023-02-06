@@ -1,0 +1,127 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    background-color: lightgrey;
+    padding: 6px;
+}
+.image {
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/affd4fc3fc4556d69df7ccfe/pexelsphoto2889488.jpeg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h1 {
+   padding-top: 410px;
+   padding-left: 50px;
+}
+.h3 {
+    padding-left: 50px;
+}
+.p {
+    padding-left: 50px;
+}
+.link {
+    padding-left: 50px;
+}
+.text {
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+}
+.line {
+    background-color: black;
+}
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 600px;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+svg {
+    background-color: blue;
+    justify-content: center;
+    padding: 4px;
+    margin: 20%;
+}
+.h{
+    padding: 6px;
+    text-align: center;
+}
+.p1 {
+    text-align: center;
+}
+.about {
+    padding: 70px;
+    padding-left: 150px;
+    padding-top: 8%;
+    background-image: url(https://images01.nicepage.com/a7/93/a793ab5b4f3a41cfd96662f149325aec.jpeg);
+    background-size: cover;
+    overflow: visible;
+    height: 600px;
+}
+.bi-gear {
+    background-color: orangered;
+}
+.rowz {
+    background-image: url(https://img.freepik.com/free-photo/view-new-york-city-manhattan-midtown-dusk-with-skyscrapers-illuminated-east-river_268835-754.jpg?w=1060&t=st=1675676774~exp=1675677374~hmac=51f1903718cad6dcbdad6906c64df892893f38260e3be40cca5d333702d82f19);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-size: cover;
+}
+.image {
+    background-image: url(https://img.freepik.com/free-photo/giant-building-with-sun_1127-400.jpg?w=1060&t=st=1675614846~exp=1675615446~hmac=53d43e506da375d674d856c1ca7301cc1357196aec2f0bb354d5d780005914e4);
+    width: 100%;
+    height: 800px;
+}
+.logos {
+    background-color: orangered;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.l {
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/238ec05334fa587ea60798ff/53f73861b78467099232f9b55d546a43.png);
+    width: 20%;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+.o {
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/e0416cff2bb251948dd9e599/69b161fe8225e211736bfb51c2300b64.png);
+    width: 20%;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+.g {
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/bff4292c213b55dd8764576a/19cc36854d5b88b2e2bc4fb1f28a6610.png);
+    width: 20%;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+.s {
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/63cee7e63baf59e9b339e6d9/e2e7f8e348e8a24d629c4fcedc57edce.png);
+    width: 20%;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+.bg {
+    background-image: url(https://img.freepik.com/free-photo/low-angle-shot-grey-skyscrapers-front-river-dark-cloudy-sky_181624-7042.jpg?w=1060&t=st=1675683116~exp=1675683716~hmac=e0dd27e7c193a7b450194825e372728a2d0a74d3815efba8a42ba854fe7351ef);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: gray;
+    padding: 6px;
+}
