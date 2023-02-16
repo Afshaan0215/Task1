@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        .bg_image {
+            width: 100%;
+            height: 600px;
+            background-color: antiquewhite;
+            background-image: url(https://static.vecteezy.com/system/resources/previews/001/882/531/original/dark-blue-technology-background-free-vector.jpg);
+            background-repeat: no-repeat;
+        }
+        form {
+            margin-left: 50px;
+            padding: 0px;
+        }
+        button {
+            margin-left: 50px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center; font-family: 'Courier New', Courier, monospace;">Welcome to the page</h1>
+    <div class="bg_image">
+    </div>
+    <h2 style="text-align:center; font-family:Verdana, Geneva, Tahoma, sans-serif">Click on the below link to enter in a new world.</h2>
+    <p style="text-align:center; font-size: larger;"><a href="https://edupoly.com/#/tutorials">Click me!!!</a></p>
+    <marquee bgcolor="Black" direction="right" scrollamount=15 behavior="scroll">
+        <img src="https://e1.pxfuel.com/desktop-wallpaper/24/739/desktop-wallpaper-computer-programming-code-computer-program.jpg" alt="Computer Programming" width="500px" height="400px">
+    </marquee>
+    <ol style="font-size:large">
+        <li style="color:blue">Programming is the art of telling another human being what one wants the computer to do. ― Donald Ervin Knuth</li>
+        <li style="color:red">Things aren’t always #000000 and #FFFFFF</li>
+        <li style="color:darkgreen">Software always remain softly for End users! But sometimes hardly to developers! – Bananeza Pacifique</li>
+    </ol>
+    <ul style="font-size:large">
+        <li style="color:brown">Design doesn’t mean that every person [is] gonna like, love it, but that’s the creativity of [an] eye which creates something different. – Bijay Chhetri</li>
+        <li style="color:royalblue">Everybody should learn to program a computer because it teaches you how to think. – Steve Jobs</li>
+        <li style="color:purple">Web development is difficult, only then it is fun to do. You just have to set your standards. If it were to be easy, would anyone do it? ― Olawale Daniel</li>
+    </ul>
+    <a href="https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?w=1380&t=st=1674885879~exp=1674886479~hmac=030853f6a2a412440f7515411fa2705b39c21f10b44ada5e4b450fe1b9a46bb3" download="myimage"><img src="https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?w=1380&t=st=1674885879~exp=1674886479~hmac=030853f6a2a412440f7515411fa2705b39c21f10b44ada5e4b450fe1b9a46bb3" alt="Technology" width="100%" height="500px"></a>
+    <p><b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <i>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</i>. Excepteur sint occaecat cupidatat non proident, <strike>sunt in culpa qui officia deserunt mollit anim id est laborum</strike>.</p>
+    <form class="form1">
+        <h2 style="font-family:cursive;">Select your gender...</h2>
+        <label class="gender" style="text-align:center">Gender :</label>
+            <input type="radio" name="gender" value="male" id="gender" onclick="abc(event)">Male
+            <input type="radio" name="gender" value="female" id="gender" onclick="abc(event)">Female
+            <input type="radio" name="gender" value="other" id="gender" onclick="abc(event)">Other
+        <h2 style="font-family:cursive;">Select a programming language</h2>
+        <label class="course">Select :</label>
+            <input type="checkbox" name="course" value="html" id="course" onclick="def(event)">HTML
+            <input type="checkbox" name="course" value="css" id="course" onclick="def(event)">CSS
+            <input type="checkbox" name="course" value="js" id="course" onclick="def(event)">JavaScript
+            <br /> <br />
+            <h2 style="font-family:verdana;">Fill the details</h2>
+            First Name : <input type="text" id="fn" name="fname" maxlength="30">
+            <br /> <br />
+            Last Name : <input type="text" id="ln" name="lname" minlength="-10" maxlength="100">
+            <br /> <br />
+            Email : <input type="mail" id="email" name="email" required>
+            <br /> <br />
+            Password : <input type="password" id="pswd" name="password" minlength="12" required>
+            <br /><br />
+            Date : <input type="date" id="date" name="date" min="2023-01-21">
+    </form>
+    <br />
+    <button type="submit" onclick="submitform()">Submit</button>
+    <script>
+        var br = {h:"",c:"",j:""};
+        var ar;
+        function abc(e) {
+            ar=e.target.value
+        }
+        function def(e) {  
+            if(e.target.value==="HTML"){
+                br.h=e.target.value
+            }
+            else if(e.target.value==="CSS"){
+                br.c=e.target.value
+            }
+            else {
+                br.j=e.target.value
+            }
+        }
+        function submitform(){
+            gender = document.getElementById("gender").value;
+            course = document.getElementById("course").value;
+            firstName = document.getElementById("fn").value;
+            lastName = document.getElementById("ln").value;
+            email = document.getElementById("email").value;
+            password = document.getElementById("pswd").value;
+            date = document.getElementById("date").value;
+
+            console.log(ar)
+            console.log(br.h+br.c+br.j)
+            console.log(firstName)
+            console.log(lastName) 
+            console.log(email)
+            console.log(password)
+            console.log(date)   
+        }
+    </script>
+</body>
+</html>

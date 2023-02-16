@@ -1,0 +1,80 @@
+#section6 .col-md-2 .btn {
+    background-color: rgb(88, 19, 237);
+    font-size:medium;
+    color: white;
+}
+#section6 .col-md-2 .btn:hover {
+    color: black;
+    background-color: white;
+    border-color: rgb(115, 50, 205);
+}
+#section6 .section6 {
+    display: flex;
+    flex-wrap: wrap;
+}
+#section6 .image {
+    display: flex;
+    flex-wrap: wrap;
+}
+#section6 .card-body span{
+    font-size:150%;
+    color:orange;
+    border-radius: 15px;
+}
+#section6 .card-text {
+    color: rgb(163, 176, 189);
+    font-weight: 600;
+    font-style: italic;
+}
+#section6 .card-text:hover {
+    color: indigo;
+}
+#section6 .txt {
+    color: rgb(163, 176, 189);
+    font-weight: 600;
+}
+#section6 .card:hover {
+    border-color: rgb(91, 24, 140);
+}
+#section6 .col-2 button{
+    color: white;
+    background-color: blue;
+}
+#section6 .col-2 button:hover{
+    color: black;
+    background-color: white;
+}
+#section6 .bi-quote {
+    color: slategray;
+    transform: rotate(3.142rad);
+}
+#section6 .para {
+    color: rgb(148, 100, 182);
+}
+#section6 .info {
+    border: 2px solid lightgray;
+    width: 38%;
+    padding: 10px;
+}
+#section6 .txtt {
+    animation: 3s anim-lineUp ease-out ;
+    
+  }
+  
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }

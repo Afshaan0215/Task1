@@ -1,0 +1,300 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>landing page</title>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<style>
+  .image {
+     background: url("https://images.unsplash.com/photo-1420161900862-9a86fa1f5c79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+     position: relative;
+  }
+  .container {
+     display: flex;
+     height: 450px;
+  }
+  .logo {
+     width:15%;
+  }
+  .h1 {
+     width: 83%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: end;
+     gap:40px;
+     text-decoration: none;  
+  }
+  .t1{
+     position: absolute;
+     top: 20%;
+     left:20%;
+     color: white;
+    }
+    .d1{
+      height: 30px;
+      width: 90px;
+      border: 2px solid red;
+      text-align: center;
+    }
+    .service{
+      text-align: center;
+    }
+    .para{
+      text-align:center;
+    }
+    .design div{
+      background-image: url("https://cdn.pixabay.com/photo/2019/05/06/13/47/record-4183139_960_720.jpg");
+      width: 300px;
+      height: 300px;
+    }
+    .design{
+      display: flex;
+      justify-content: space-around; 
+    }
+    .design div p{
+      color: white;
+      text-align: center;
+    }
+    .design div img{
+      width: 30%;
+      height: 30%;
+    }
+    .project{ 
+      justify-content: space-around;
+    }
+    .projectt{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content:space-around;
+      margin-top: 100px;
+    }
+    .h2{
+       text-align: center;
+      }
+    .p1{
+       width:600px;
+       height: 310px;
+       border: 2px solid;
+    }
+    .pp1{
+       width: 700px;
+       height: 300px;
+       border: 2px solid;
+       padding: 5px;
+       background-image: url("https://images.unsplash.com/photo-1507838153414-b4b713384a76?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+       background-size: cover;
+    }
+    .p2{
+       width: 600px;
+       height: 300px;
+       border: 2px solid;
+       padding: 5px;
+       background-image: url("https://images.unsplash.com/photo-1507838153414-b4b713384a76?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+       background-size: cover;
+    }
+    .pp2{
+       width: 700px;
+       border: 2px solid;
+       padding: 5px;
+    }
+    .p3{
+       width: 620px;
+       height: 300px;
+       border: 2px solid;
+    }
+    .pp3{
+       width:700px;
+       height: 290px;
+       border: 2px solid;
+       padding: 5px;
+       background-image: url("https://images.unsplash.com/photo-1507838153414-b4b713384a76?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    }
+    .p4{
+       width: 620px;
+       height: 300px;
+       border: 2px solid;
+       background-image: url("https://images.unsplash.com/photo-1507838153414-b4b713384a76?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    }
+    .pp4{
+       width:700px;
+       border: 2px solid;
+       padding: 5px;
+    }
+    .p5{
+      width: 620px;
+      height: 300px;
+      border: 2px solid;
+    }
+    .pp5{
+      width:690px;
+      height: 300px;
+      border: 2px solid;
+      padding: 5px;
+      background-image: url("https://images.unsplash.com/photo-1507838153414-b4b713384a76?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    }
+    .contact{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+    .phn{
+       width: 400px;
+       height: 350px;
+       border: 1px solid gray;
+       background-image: url(https://images.unsplash.com/photo-1624391673156-a7b7f6c5fb12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+       color: white;
+       text-align: center;
+    }
+    .email {
+       width: 400px;
+       height: 350px;
+       border: 1px solid gray;
+       background-image: url(https://images.unsplash.com/photo-1624391673156-a7b7f6c5fb12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+       color: white;
+       text-align: center;
+    }
+    .add{
+       width: 400px;
+       height: 350px;
+       border: 1px solid gray;
+       background-image: url(https://images.unsplash.com/photo-1624391673156-a7b7f6c5fb12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+       color: white;
+       text-align: center;
+    }
+    .info{
+       text-align: center;
+    }
+    .flex{
+       display :flex;
+       justify-content: center;
+    }
+    .about{
+       width:160px;
+       border: 10px solid white;
+       background-image: url("data:image/jpeg;base64,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");
+       height: 300px;
+       background-image: cover;
+       margin-right: 50px;
+       box-shadow: -15px 15px 0px 0px rgb(244, 112, 112);
+    }
+    .resume{
+       width: 500px;
+    }
+    .footer{
+       background-color: gray;
+       text-align: center;
+    }
+    span{
+       color: blue;
+    }
+  </style>
+</head>
+    <body>
+        <section>
+            <div class="image">
+            <div class="container">
+                <span class="logo"><h1>MU<span>S</span>IC</h1></span>
+                <ul  type="none"class="h1">
+                    <li><a href="home">Home</a></li>
+                    <li><a href="services">Services</a></li>
+                    <li><a href="projects">projects</a></li>
+                    <li><a href="about">About</a></li>
+                    <li> <a href="contact">Contact Us</a></li>     
+                </ul>    
+            </div>
+            <div class="t1">
+                <h1>HELLO,</h1>
+                <h1>WELCOME TO THE</h1>
+                <h1>MUSIC WORLD</h1>
+                <div class="d1">PORTFOLIO</div>
+            </div>
+        </div>         
+        </section>
+        <br>
+        <section>
+            <h1 class="service">SERVICES</h1>
+            <p class="para">In publishing and graphic design,  Lorem ipsum is a placeholder text commonly<br> used to demonstrate the visual form of a document or <br>a typeface without relying on meaningful content.
+                 Lorem ipsum <br>may be used as a placeholder before final copy is available.</p>
+        </section>
+        <div class="design">
+            <div>
+                <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                <p>In publishing and graphic design,  Lorem ipsum is a placeholder text commonly<br> used to demonstrate the visual form of a document or a typeface without relying on meaningful content.Lorem ipsum <br>may be used as a placeholder before final copy is available.</p>
+            </div>
+            <div >
+                <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                <p>In publishing and graphic design,  Lorem ipsum is a placeholder text commonly<br> used to demonstrate the visual form of a document or a typeface without relying on meaningful content.Lorem ipsum <br>may be used as a placeholder before final copy is available.</p>
+            </div>
+            <div >
+                <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                <p>In publishing and graphic design,  Lorem ipsum is a placeholder text commonly<br> used to demonstrate the visual form of a document or a typeface without relying on meaningful content.Lorem ipsum <br>may be used as a placeholder before final copy is available.</p>
+            </div>
+            <div >
+                <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                <p>In publishing and graphic design,  Lorem ipsum is a placeholder text commonly<br> used to demonstrate the visual form of a document or a typeface without relying on meaningful content.Lorem ipsum <br>may be used as a placeholder before final copy is available.</p>
+            </div>
+        </div>
+        <br>
+        <div class="project">
+           <h1 class="h2" >RECENT <span>PROJECTS</span></h1>
+        <div class="projectt"> 
+            <div class="p1">In publishing and graphic design,  Lorem ipsum is a placeholder text commonly<br> used to demonstrate the visual form of a document or a typeface without relying on meaningful content.In publishing and graphic design,  Lorem ipsum is a placeholder text commonly<br> used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
+            </div>
+            <div class="pp1"></div>
+        </div>
+        <div class="projectt">
+            <div class="p2"></div>
+            <div class="pp2">In publishing and graphic design,  Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.Lorem ipsum <br>may be used as a placeholder before final copy is available.</div>
+        </div>
+        <div class="projectt">
+            <div class="p3">In publishing and graphic design,  Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.Lorem ipsum <br>may be used as a placeholder before final copy is available.</div>
+            <div  class="pp3"></div>     
+        </div>
+        <div class="projectt">   
+            <div class="p4"></div>
+            <div class="pp4">In publishing and graphic design,  Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.Lorem ipsum <br>may be used as a placeholder before final copy is available.</div>
+        </div>
+        <div class="projectt">  
+            <div class="p5">In publishing and graphic design,  Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.Lorem ipsum <br>may be used as a placeholder before final copy is available.</div>
+            <div class="pp5"></div>
+        </div>
+    </div>
+    <div class="flex" style="margin-top: 200px;">
+        <div >
+            <div class="about"></div>
+        </div>
+        <div class="resume">
+            <h1>ABOUT <span>ME</span></h1>
+            <p>Music is generally defined as the art of arranging sound to create some combination of form, harmony, melody, rhythm or otherwise expressive content.[1][2][3] Exact definitions of music vary considerably around the world,[4] though it is an aspect of all human societies, a cultural universal. While scholars agree that music is defined by a few specific elements, there is no consensus on their precise definitions.</p>
+            <button>DOWNLOAD RESUME</button>
+        </div>  
+    </div>
+    <h1 class="info" style="margin-top: 200px;">CONTACT <span>INFO</span> </h1>
+    <div class="contact">
+        <div class="phn"><h1>phone</h1>
+            <ion-icon name="call-outline" style="font-size: 50px;"></ion-icon>
+            <h4 style="font-size: 20px;">9876543210</h4>
+        </div>
+        <div class="email"><h1>Email</h1>
+            <ion-icon name="mail-outline" style="font-size: 50px;"></ion-icon>
+            <h4 style="font-size: 20px;">Afshaan@gmail.com</h4>
+        </div>
+        <div class="add"><h1>Address</h1>
+            <ion-icon name="add-circle-outline" style="font-size: 50px;"></ion-icon>
+            <h4 style="font-size: 20px;">Hyderabad</h4>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>Afshaan</h1>
+        <h4>Your Complete Web Solution</h4>
+        <ion-icon name="logo-facebook" style="font-size: 20px;"></ion-icon>
+        <ion-icon name="logo-instagram" style="font-size: 20px;"></ion-icon>
+        <ion-icon name="logo-linkedin" style="font-size: 20px;"></ion-icon>
+        <ion-icon name="logo-github" style="font-size: 20px;"></ion-icon>
+        <h4>copyright@2023 Afshaan. All rights reserved.</h4>
+    </div>
+  </body>
+</html>
