@@ -4,105 +4,207 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <style>
-        .bg_image {
-            width: 100%;
-            height: 600px;
-            background-color: antiquewhite;
-            background-image: url(https://static.vecteezy.com/system/resources/previews/001/882/531/original/dark-blue-technology-background-free-vector.jpg);
-            background-repeat: no-repeat;
-        }
-        form {
-            margin-left: 50px;
-            padding: 0px;
-        }
-        button {
-            margin-left: 50px;
-            padding: 0px;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Unica+One&family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <title>Analytics</title>
 </head>
 <body>
-    <h1 style="text-align:center; font-family: 'Courier New', Courier, monospace;">Welcome to the page</h1>
-    <div class="bg_image">
+    <div class="bgs"> 
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a href="#" class="px-2"><img src="./css/assets/images/logo.png" alt="Analytics logo" width="150px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 pe-5">
+                    <li class="nav-item">
+                      <a class="nav-link active text-light" aria-current="page" href="#"><small>Products</small></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active text-light" href="#"><small>Pricing</small></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active text-light" href="#"><small>FAQ</small></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active text-light"><small>Blog</small></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active text-light"><small>Blog</small></a>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <a href="#" class="text-decoration-none text-light px-3">Sign in</a>
+                    <a href="#" class="text-decoration-none text-light border border-2 rounded-pill px-4">Sign up</a>
+                  </form>
+                </div>
+            </div>
+        </nav>       
+        <section class="s1">
+            <div class="container-fluid test">
+                <div class="row monitor">
+                    <div class="col-md-8 col-sm-12 px-5">
+                        <h2 class="text-light pt-5 myb ">Monitor your business <br /> on real-time dashboard</h2>
+                        <p class="para text-light pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum <br /> nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae <br /> nibh nunc mattis imperdiet sed nullam.</p>
+                        <button class="border border-0 rounded-pill px-5 py-2 text-light">Try for free</button>
+                    </div>
+                    <div class="col-md-4 col-sm-12 py-2">
+                        <img src="./css/assets/images/main-screen.png" class="header" alt="bg">
+                    </div>
+                </div>
+            </div>  
+        </section>
     </div>
-    <h2 style="text-align:center; font-family:Verdana, Geneva, Tahoma, sans-serif">Click on the below link to enter in a new world.</h2>
-    <p style="text-align:center; font-size: larger;"><a href="https://edupoly.com/#/tutorials">Click me!!!</a></p>
-    <marquee bgcolor="Black" direction="right" scrollamount=15 behavior="scroll">
-        <img src="https://e1.pxfuel.com/desktop-wallpaper/24/739/desktop-wallpaper-computer-programming-code-computer-program.jpg" alt="Computer Programming" width="500px" height="400px">
-    </marquee>
-    <ol style="font-size:large">
-        <li style="color:blue">Programming is the art of telling another human being what one wants the computer to do. ― Donald Ervin Knuth</li>
-        <li style="color:red">Things aren’t always #000000 and #FFFFFF</li>
-        <li style="color:darkgreen">Software always remain softly for End users! But sometimes hardly to developers! – Bananeza Pacifique</li>
-    </ol>
-    <ul style="font-size:large">
-        <li style="color:brown">Design doesn’t mean that every person [is] gonna like, love it, but that’s the creativity of [an] eye which creates something different. – Bijay Chhetri</li>
-        <li style="color:royalblue">Everybody should learn to program a computer because it teaches you how to think. – Steve Jobs</li>
-        <li style="color:purple">Web development is difficult, only then it is fun to do. You just have to set your standards. If it were to be easy, would anyone do it? ― Olawale Daniel</li>
-    </ul>
-    <a href="https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?w=1380&t=st=1674885879~exp=1674886479~hmac=030853f6a2a412440f7515411fa2705b39c21f10b44ada5e4b450fe1b9a46bb3" download="myimage"><img src="https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?w=1380&t=st=1674885879~exp=1674886479~hmac=030853f6a2a412440f7515411fa2705b39c21f10b44ada5e4b450fe1b9a46bb3" alt="download" width="100%" height="500px"></a>
-    <p><b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <i>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</i>. Excepteur sint occaecat cupidatat non proident, <strike>sunt in culpa qui officia deserunt mollit anim id est laborum</strike>.</p>
-    <form class="form1">
-        <h2 style="font-family:cursive;">Select your gender...</h2>
-        <label class="gender" style="text-align:center">Gender :</label>
-            <input type="radio" name="gender" value="male" id="gender" onclick="abc(event)">Male
-            <input type="radio" name="gender" value="female" id="gender" onclick="abc(event)">Female
-            <input type="radio" name="gender" value="other" id="gender" onclick="abc(event)">Other
-        <h2 style="font-family:cursive;">Select a programming language</h2>
-        <label class="course">Select :</label>
-            <input type="checkbox" name="course" value="html" id="course" onclick="def(event)" checked>HTML
-            <input type="checkbox" name="course" value="css" id="course" onclick="def(event)">CSS
-            <input type="checkbox" name="course" value="js" id="course" onclick="def(event)">JavaScript
-            <br /> <br />
-            <h2 style="font-family:verdana;">Fill the details</h2>
-            First Name : <input type="text" id="fn" name="fname" maxlength="30">
-            <br /> <br />
-            Last Name : <input type="text" id="ln" name="lname" minlength="-10" maxlength="100">
-            <br /> <br />
-            Email : <input type="mail" id="email" name="email" required>
-            <br /> <br />
-            Password : <input type="password" id="pswd" name="password" minlength="12" required>
-            <br /><br />
-            Date : <input type="date" id="date" name="date" min="2023-01-21">
-    </form>
-    <br />
-    <button type="submit" onclick="submitform()">Submit</button>
-    <script>
-        var br = {h:"",c:"",j:""};
-        var ar;
-        function abc(e) {
-            ar=e.target.value
-        }
-        function def(e) {  
-            if(e.target.value==="HTML"){
-                br.h=e.target.value
-            }
-            else if(e.target.value==="CSS"){
-                br.c=e.target.value
-            }
-            else {
-                br.j=e.target.value
-            }
-        }
-        function submitform(){
-            gender = document.getElementById("gender").value;
-            course = document.getElementById("course").value;
-            firstName = document.getElementById("fn").value;
-            lastName = document.getElementById("ln").value;
-            email = document.getElementById("email").value;
-            password = document.getElementById("pswd").value;
-            date = document.getElementById("date").value;
-
-            console.log(ar)
-            console.log(br.h+br.c+br.j)
-            console.log(firstName)
-            console.log(lastName) 
-            console.log(email)
-            console.log(password)
-            console.log(date)   
-        }
-    </script>
+    <div class="hr"></div>
+    <!-- <hr/> -->
+    <div class="sec1">
+        <section class="s2 pt-5">
+            <div class="container">
+                <div class="text">
+                    <h1>Main Features</h1>
+                    <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam <br /> vitae nibh nunc mattis imperdiet sed nullam. Vitae et, totor pulvinar sit amet. Id vel in nam malesuada.</p>
+                </div>
+                <div class="cards d-flex justify-content-around text-center pt-4">
+                    <div class="c1">
+                        <img src="./css/assets/images/planning.png" class="image1" alt="clock" width="50px">
+                        <p class="pt-3"><b>Monitoring 24/7</b></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipis <br /> cing elit. Elementum nisi aliquet volutpat.</p>
+                    </div>
+                    <div class="c2">
+                        <img src="./css/assets/images/website.png" class="image2" alt="system" width="50px">
+                        <p class="pt-3"><b>Widget System</b></p>
+                        <p>Sapien in etiam vitae nibh nunc mattis imperdiet <br /> sed nullam. Vitae et, totor pulvinar risus pulvinar.</p>
+                    </div>
+                    <div class="c3">
+                        <img src="./css/assets/images/speed.png" class="image3" alt="rocket" width="50px">
+                        <p class="pt-3"><b>Best Performance</b></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipis <br /> cing elit. Elementum nisi aliquet volutpat.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div>
+    <section>
+        <div class="crd">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-md-6 pt-5">
+                        <h2 class="h2">Automated Reports <br /> & Widget Alerts</h2>
+                        <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Elementum nisi aliquet volutpat pellentesque volutpat est. <br /> Sapien in etiam vitae nibh nunc mattis imperdiet sed <br /> nullam. Vitae et, totor pulvinar sit amet.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./css/assets/images/first.png"  class="graph border"alt="graph" width="70%">
+                    </div>
+                </div>
+                <div class="row py-3">
+                    <div class="col-md-6">
+                        <img src="./css/assets/images/second.png"  class="graph border"alt="graph" width="70%">
+                    </div>
+                    <div class="col-md-6 pt-5">
+                        <h2 class="h2">Fully customizable to <br /> address your needs</h2>
+                        <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Elementum nisi aliquet volutpat pellentesque volutpat est. <br /> Sapien in etiam vitae nibh nunc mattis imperdiet sed <br /> nullam. Vitae et, totor pulvinar sit amet.</p>
+                    </div>
+                </div>
+                <div class="row py-3">
+                    <div class="col-md-6 pt-5">
+                        <h2 class="h2">Pre-built Dashboard <br /> Templates</h2>
+                        <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Elementum nisi aliquet volutpat pellentesque volutpat est. <br /> Sapien in etiam vitae nibh nunc mattis imperdiet sed <br /> nullam. Vitae et, totor pulvinar sit amet.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./css/assets/images/third.png"  class="graph g border"alt="graph" width="70%">
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+    </div>
+    <div>
+    <section class="shapes">
+        <div class="rec">
+            <img src="./css/assets/images/Rectangle 7@2x.png" alt="rectangle background" width="100%" height="20px">
+        </div>
+    </section>
+    <section class="s3">
+        <div class="price py-5">
+            <div class="container">
+                <div class="txt text-light">
+                    <h3 class="text-center">Pricing Plans</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet <br /> volutpat pellentesque volutpat est.</p>
+                </div>
+                <div class="row py-4 justify-content-around">
+                    <div class="col-md-4 py-3">
+                        <div class="cds text-light text-center">
+                            <div class="ctext">
+                                <h5 class="h5">Starter</h5>
+                                <small class="border-bottom pb-2">up to 3 users</small>
+                                <h1 class="text-light pt-2"><span>$</span>29</h1>
+                                <small>per month</small>
+                                <div class="pt-2">
+                                   <button class="btn border rounded-pill px-5 text-light"><small>Order</small></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3">
+                        <div class="cds1 text-center">
+                            <div class="ctext">
+                                <h5 class="h5">Standard</h5>
+                                <small class="border-bottom pb-2">up to 20 users</small>
+                                <h1 class="pt-2"><span>$</span>99</h1>
+                                <small>per month</small>
+                                <div class="pt-2">
+                                   <button class="border rounded-pill px-5 text-light"><small class="btn text-light ">Order</small></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3">
+                        <div class="cds2 text-light text-center">
+                            <div class="ctext">
+                                <h5 class="h5">Premium</h5>
+                                <small class="border-bottom pb-2">up to 200 users</small>
+                                <h1 class="text-light pt-2"><span>$</span>299</h1>
+                                <small>per month</small>
+                                <div class="pt-2">
+                                   <button class="btn border rounded-pill px-5 text-light"><small>Order</small></button>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+                <!-- <hr /> -->
+            </div>
+        </div>
+            <footer class="text-center ">
+                <div class="container">
+                    <div class="row py-4">
+                        <div class="col-md-3">
+                            <img src="./css/assets/images/logo1.png" alt="logo">
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#" class="text-decoration-none text-secondary">Product</a>
+                            <a href="#" class="text-decoration-none text-secondary">Pricing Plans</a>
+                            <a href="#" class="text-decoration-none text-secondary">FAQ</a>
+                            <a href="#" class="text-decoration-none text-secondary">Blog</a>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./css/assets/images/Facebook.png" class="icon"  alt="facebook">
+                            <img src="./css/assets/images/Twitter.png" class="icon"  alt="twitter">
+                            <img src="./css/assets/images/Instagram.png" class="icon"  alt="instagram">
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>  
+</div>
 </body>
 </html>
